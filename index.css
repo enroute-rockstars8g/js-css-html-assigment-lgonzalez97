@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: azure;
+    height: 100%;
+
+
+    /* align-items: center;
+    justify-content: center;
+    */
+}
+
+.header {
+    padding: 30px;
+    background: #25c2f1;
+    color: white;
+}
+
+
+.header h1 {
+    font-size: 40px;
+}
+
+#email {
+    float: right;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+}
+
+.main {
+    flex: 70%;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.hobbiesimg {
+    background-image: url(imgs/Hobbies-img.png);
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.volcanimg {
+    background-image: url(imgs/Colima_volcano.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.exerc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    grid-area: a;
+}
+
+#div1 {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+
+.div2 {
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}
+
+#innerDiv {
+    position: absolute;
+    top: 0;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}

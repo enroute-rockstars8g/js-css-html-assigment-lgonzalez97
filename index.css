@@ -60,11 +60,22 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.contactimg {
+    background-image: url(imgs/contact.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .volcanimg {
     background-image: url(imgs/Colima_volcano.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
